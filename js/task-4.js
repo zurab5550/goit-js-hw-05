@@ -13,7 +13,7 @@ append(str){
 }
 
 prepend(str){
-  this._value = str + this._value;
+  this._value = `${str}${this._value}`;
 }
 
 pad(str){
